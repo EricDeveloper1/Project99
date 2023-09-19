@@ -1,0 +1,40 @@
+#develepor {
+    position: sticky;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: lightskyblue
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: unset;
+    font-weight: 100;
+}
+
+h4 {
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+#camera {
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: darkturquoise;
+}
+
+img {
+    border-radius: 30px;
+    padding: 3px;
+    box-shadow: 0 2px 5px 0 black;
+    width: 30%;
+}
+
+img:hover {
+    width: 40%;
+    transition: width 0.6s ease-in-out;
+}
